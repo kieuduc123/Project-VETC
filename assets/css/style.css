@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "VETCLight-Regular";
+  src: url("../fonts/VETCLight_gdi.eot");
+  src: url("../fonts/VETCLight_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/VETCLight_gdi.otf") format("opentype"), url("../fonts/VETCLight_gdi.woff") format("woff"), url("../fonts/VETCLight_gdi.ttf") format("truetype"), url("../fonts/VETCLight_gdi.svg#VETCLight-Regular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB06;
+}
+@font-face {
+  font-family: "VETCRegular-Regular";
+  src: url("../fonts/VETCRegular_gdi.eot");
+  src: url("../fonts/VETCRegular_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/VETCRegular_gdi.otf") format("opentype"), url("../fonts/VETCRegular_gdi.woff") format("woff"), url("../fonts/VETCRegular_gdi.ttf") format("truetype"), url("../fonts/VETCRegular_gdi.svg#VETCRegular-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB04;
+}
+@font-face {
+  font-family: "VETC-Bold";
+  src: url("../fonts/VETC-Bold_gdi.eot");
+  src: url("../fonts/VETC-Bold_gdi.eot?#iefix") format("embedded-opentype"), url("../fonts/VETC-Bold_gdi.otf") format("opentype"), url("../fonts/VETC-Bold_gdi.woff") format("woff"), url("../fonts/VETC-Bold_gdi.ttf") format("truetype"), url("../fonts/VETC-Bold_gdi.svg#VETC-Bold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-FB06;
+}
+/*============================
+  Common Style
+ ============================*/
+
+.sprites {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "VETCRegular-Regular";
+  font-size: 13px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.border-news {
+  border: 1px solid #0db26d;
+}
+
+.color-text {
+  /* background-color: #0db26d; */
+  color: #0db26d;
+}
+.bg{
+  background-color: #0db26d;
+}
+
+.color-purple {
+  color: #783a97;
+}
+
+.clear {
+  clear: both;
+}
+
+/*============================
+/*Header*
+ ============================*/
+
+.header{
+  padding: 0.6rem !important;
+}
+.nav-header{
+  margin-right: 220px;
+}
+.header .nav-header ul{
+  display: inline-block;
+}
+
+.header .nav-header ul li{
+  display: inline-block;
+  font-family: "VETCRegular-Regular";
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+.header .nav-header ul li a{
+  color: #fff;
+  padding: 0.4rem;
+}
+.header .nav-header  .nav-link-menu{
+  background: #24a15c;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: -5px !important;
+}
+.header .nav-header  .nav-link-account{
+  background: #783a97;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.header .nav-header  .nav-link-account img{
+  height: 1.3rem;
+  margin-top: -4px;
+}
+.header .top-form{
+  position: relative;
+}
+.header .top-form .input-group-sm input {
+  width: 150px !important;
+  height: 24px !important;
+  border-radius: 25px;
+}
+.header .top-form img {
+  position: absolute;
+  top: 2px !important;
+  left: 128px !important;
+}
+
+
+/* ======*===== */
+.header-nav {
+  height: 49px !important;
+  color: #fff !important;
+  background: #24a15c !important;
+}
+.header-nav .show {
+  display: block;
+  background: #23c66c;
+  z-index: 111;
+}
+.header-nav .navbar {
+  padding: 0 1rem !important;
+}
+.header-nav .navbar .nav-item {
+  padding: 7px 1px;
+}
+.header-nav .navbar .nav-item .dropdown-item {
+  padding: 0.3rem 0.75rem;
+}
+.header-nav .navbar .nav-item .dropdown-item:hover {
+  background: #23c66c;
+}
+.header-nav .navbar-brand {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  z-index: 500;
+  outline: 0;
+}
+.header-nav ul li a {
+  font-family: "VETCRegular-Regular";
+  font-size: 12px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+.header-nav .dropdown-menu {
+  margin: 0;
+  border: 0;
+}
+.header-nav .menu .sm-menu {
+  background: #23c66c;
+  border-radius: 0 !important;
+  z-index: 111;
+}
+.commnan-top {
+  right: 10%;
+  position: absolute;
+  top: 2%;
+}
+@media (max-width: 992px) {
+  .hidden-m {
+    display: none !important;
+  }
+
+  .header-nav .container {
+    padding: 0;
+  }
+  .header-nav .container .navbar {
+    padding: 0 !important;
+  }
+  .header-nav .container .navbar .navbar-toggler {
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 8px 8px;
+  }
+  button:focus {
+    outline: none;
+  }
+  .header-nav .container .navbar .nav-link {
+    padding-left: 8px;
+  }
+  .header-nav .navbar-brand {
+    left: 50% !important;
+    margin-left: -105px !important;
+  }
+  .header-nav .navbar-toggle {
+    float: left;
+    display: block;
+  }
+  .header-nav .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+}
+
+
+/* ========Banner=========== */
+#skdslider {
+  width: 100% !important;
+  height: 490px !important;
+}
+#skdslider .slide {
+  z-index: -2;
+  position: relative;
+  height: 490px !important;
+}
+#skdslider .slide .img-slider {
+  position: absolute;
+}
+#skdslider .slide .slide-desc {
+  position: unset !important;
+  padding-top: 8% !important;
+  padding-left: 18%;
+}
+#skdslider .slide .slide-desc .btn-slider {
+  color: #fff !important;
+  background: #492b7a !important;
+  padding: 3px 40px;
+  font-family: "VETCRegular-Regular";
+  font-size: 13px !important;
+}
+#skdslider .slide img {
+  width: auto !important;
+  height: auto !important;
+  z-index: -1;
+}
+#skdslider .slide-1 {
+  color: #fff !important;
+  background: url("../images/icons/pro_home_banner2.jpg") !important;
+}
+#skdslider .slide-1 .img-slider1 {
+  top: 0;
+  right: 17%;
+}
+#skdslider .slide-2 {
+  color: #fff !important;
+  background: url("../images/icons/pro_home_banner1_1.jpg") !important;
+}
+#skdslider .slide-2 .img-slider2 {
+  top: 27%;
+  right: 17%;
+}
+#skdslider .slide-2 .img-slider2_2 {
+  top: 9%;
+  right: 29%;
+  z-index: 1;
+}
+#skdslider .slide-3 {
+  color: #fff !important;
+  background: #06ad5d !important;
+  width: 100%;
+}
+#skdslider .slide-3 .img-slider3 {
+  top: 3%;
+  right: 17%;
+}
+#skdslider .slide-4 {
+  color: #fff !important;
+  background: #5e2d88 !important;
+  width: 100%;
+}
+#skdslider .slide-4 .img-slider4 {
+  top: 7%;
+  left: 11%;
+}
+#skdslider .slide-4 .slide-desc {
+  padding-top: 10%;
+  padding-left: 48%;
+}
+.skdslider ul.slide-navs li {
+    float: left;
+    color: #06ad5d;
+    background: url(image/slide-bg.png) no-repeat scroll 0 0 transparent;
+    height: 24px;
+    width: 17px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.skdslider ul.slide-navs {
+  bottom: 20px;
+  left: 50%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.skdslider ul.slide-navs li.active {
+  background: url(../images/icons/pro_map_pin_tron_do.png) no-repeat scroll 0 0 transparent;
+}
+.skdslider ul.slide-navs li {
+  float: left;
+  color: #06ad5d;
+  background: url(../images/icons/pro_map_pin_tron_datroi.png) no-repeat scroll 0 0 transparent;
+  height: 24px;
+  width: 17px;
+  margin-right: 4px;
+  cursor: pointer;
+}
