@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VETC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Include CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/js/plugins/OwlCarousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/js/plugins/OwlCarousel2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/js/plugins/skdslider/skdslider.css">
+
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- ======Header ======= -->
+<div class="header hidden-m ">
+    <div class="container-fluid text-right">
+                <nav class="nav-header"> 
+                    <form class="top-form d-inline-block" action="">
+                        <input type="hidden" name="page" value="1">
+                        <div class="input-group-sm">
+                            <input type="text" class="form-control" name="search" value="" placeholder="Tìm kiếm">
+                            <a href="#"><img src="assets/images/icons/common_top_search.png"></a>
+                        </div>
+                    </form>
+        
+                    <div class=" nav-link nav-active d-inline-block">
+                      <ul class="navbar-nav nav-link-menu">
+                        <li class="nav-item active">
+                          <a  href="#">Khách Hàng </a>
+                        </li>
+                        <li class="nav-item">
+                          <a  href="#">Đại Lý </a>
+                        </li>
+                        <li class="nav-item">
+                          <a  href="#">Nhà đầu tư Bot</a>
+                        </li>
+                        <li class="nav-item">
+                          <a  href="#">Cơ quan quản lý nhà nước</a>
+                        </li>
+                      </ul>
+                      <ul class="nav navbar-nav nav-link-account color-purple">
+                        <li class="menu-item-account"><a href="#">Đăng nhập /</a> 
+                            <a href="#" data-toggle="modal"  data-target="#register-model">Đăng ký</a>
+                            <img src="assets/images/icons/common_top_lock.png">
+                        </li>
+                    </ul>
+                    </div>
+        
+                    <div class="nav navbar-nav nav-language d-inline-block">
+                        <a href="#" class="nav-language item color-text">VIE</a>
+                        <span class="sprites">|</span>
+                        <a href="#" class="color-purple">ENG</a>
+        
+                    </div>
+                  </nav>
+       
+    </div>
+</div>
+
+
+<div class="header-nav sticky-top">
+    <div class="container">
+       <nav class="navbar navbar-expand-sm navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            ☰
+           </button>
+           <a class="navbar-brand" href="index.html">
+            <img src="assets/images/icons/common_top_logo.png">
+           </a>
+
+           <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown dmenu">
+                    <a class="nav-link dropdown-toggle" href="ve-chung-toi.html" id="navbardrop" data-toggle="dropdown">
+                        VỀ CHÚNG TÔI
+                    </a>
+                    <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="ve-chung-toi.html#p1">GIỚI THIỆU CHUNG</a>
+                        <a class="dropdown-item" href="ve-chung-toi.html#p2">TẦM NHÌN-SỨ MỆNH</a>
+                        <a class="dropdown-item" href="ve-chung-toi.html#p3">HỘI ĐỒNG QUẢN TRỊ</a>
+                        <a class="dropdown-item" href="ve-chung-toi.html#p4">THÀNH TỰU</a>
+                        <a class="dropdown-item" href="ve-chung-toi.html#p5">VETC THƯƠNG HIỆU</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dmenu">
+                    <a class="nav-link dropdown-toggle" href="sanpham.html" id="navbardrop" data-toggle="dropdown">
+                        SẢN PHẨM</a>
+                    <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="sanpham.html#sp1">KHÁI QUÁT</a>
+                        <a class="dropdown-item" href="sanpham.html#sp2">LỢI ÍCH</a>
+                        <a class="dropdown-item" href="sanpham.html#sp3">CÔNG NGHỆ</a>
+                        <a class="dropdown-item" href="sanpham.html#sp4">CÁCH DÙNG</a>
+                        <a class="dropdown-item" href="sanpham.html#sp5">ĐIỂM DỊCH VỤ</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dmenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        HƯỚNG DẪN </a>
+                    <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG CÁ NHÂN</a>
+                        <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG DOANH NGHIỆP</a>
+                        <a class="dropdown-item" href="#">HỖ TRỢ DỊCH VỤ</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ĐIỂM TIẾP NHẬN DỊCH VỤ</a>
+                </li>
+                <li class="nav-item dropdown dmenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        TIN TỨC
+                    </a>
+                    <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="tintuc.html">TIN XÃ HỘI</a>
+                        <a class="dropdown-item" href="tintuc.html">TIN DOANH NGHIỆP</a>
+                        <a class="dropdown-item" href="gallery.html">HÌNH ẢNH</a>
+                        <a class="dropdown-item" href="video.html">VIDEO</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dmenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        TUYỂN DỤNG
+                    </a>
+                    <div class="dropdown-menu sm-menu">
+                        <a class="dropdown-item" href="#">TẠI SAO CHỌN VETC</a>
+                        <a class="dropdown-item" href="#">CƠ HỘI NGHỀ NGHIỆP</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                </li>
+                
+            </ul>
+        </div>
+     </nav>
+     <a class="commnan-top hidden-m  " href="index.html">
+        <img src="assets/images/icons/common_top_road.png">
+       </a>
+    </div>
+</div>
+
+
+<!-- =======Bannner ======= -->
+<div class="skdslider">
+    <div class="slide slide-1">
+        <div class="slide-desc animate__animated animate__fadeInLeft animate__delay-2s">
+            <h3 class="color-text " ><strong>ỨNG DỤNG VETC</strong></h3>
+            <br>
+            <p >Một công cụ hỗ trợ đắc lực cho chủ phương tiện trong việc:</p>
+            <p >1. Quản lý TKGT và giao dịch xe qua trạm<br>2. Nạp tiền TKGT<br><span>3. Mua vé/tháng quý</span><br>
+            </p>
+            <br>
+            <button type="button" class="btn btn-slider">Chi tiết</button>
+        </div>
+        <img class="img-slider img-slider1 animate__animated animate__rotateInDownRight animate__slow 2s" src="assets/images/icons/pro_home_banner2_icon_1.png"/>
+
+    </div>
+    <div class="slide slide-2">
+        <div class="slide-desc">
+            <h3 class="color-text text-uppercase animate__animated animate__fadeInLeft animate__delay-2s"><strong>Miễn phí dán thẻ và mở <br>tài khoản giao thông VETC<br> cho
+                khách hàng mới</strong></h3>
+            <br>
+            <p class="animate__animated animate__fadeInLeft animate__delay-2s">Bạn cảm thấy mệt mỏi trên mỗi đoạn đường thu phí một dừng hiện nay? <br>
+                Nhanh chân tới các Điểm dịch vụ VETC hoặc Trung tâm đăng kiểm<br> trên toàn quốcđể được dán thẻ VETC
+                miễn phí ngay hôm nay</p>
+            <br>
+            <button type="button" class="btn btn-slider animate__animated animate__fadeInLeft animate__delay-3s">Hướng dẫn</button>
+        </div>
+        <img class="img-slider img-slider2_2   animate__animated animate__fadeInRight animate__delay-2s hidden-m " src="assets/images/icons/pro_home_banner1_3.png"/>
+        <img class="img-slider img-slider2    animate__animated animate__fadeInRight animate__delay-2s hidden-m"  src="assets/images/icons/pro_home_banner1_2.png"/>
+    </div>
+    <div class="slide slide-3">
+        <div class="slide-desc animate__animated animate__fadeInLeft animate__delay-2s">
+            <h3 class="text-uppercase"><strong>Sử dụng ứng dụng di động<br> VETC
+                Quản lý và nạp tiền <br>
+                Tại bất cứ đâu</strong>
+            </h3>
+            <br>
+            <p>VETC cung cấp cho khách hàng ứng dụng di động<br> tiện lợi để quản lý tài khoản giao thông<br> và nạp tiền
+                tại bất cứ đâu thông qua<br> kết nối internet, dịch vụ ngân hàng điện tử
+            </p>
+            <br>
+            <button type="button" class="btn btn-slider">Chi tiết</button>
+        </div>
+        <img class="img-slider img-slider3  animate__animated animate__fadeInRight animate__delay-2s hidden-m" src="assets/images/icons/pro_home_banner1.1.png"/>
+    </div>
+    <div class="slide slide-4">
+        <img class="img-slider img-slider4   animate__animated animate__fadeInRight animate__delay-2s hidden-m"  src="assets/images/icons/pro_home_banner3_icon_1.png"/>
+        <div class="slide-desc animate__animated animate__fadeInLeft animate__delay-3s">
+            <h3 class="text-uppercase color-text"><strong>Đa dạng các hình thức nạp tiền<br>
+                vào Tài khoản giao thông
+            </strong></h3>
+            <br>
+            <p class="d-inline-block">1. Nạp qua chuyển khoản ngân hàng<br>2. Nạp trực tiếp tại Điểm dịch vụ VETC<br>3. Nạp thông qua Dịch vụ
+                thanh toán hóa đơn
+            </p>
+            <img class="d-inline-block" src="assets/images/icons/pro_home_banner3_icon_2.png"/>
+        </div>
+
+    </div>
+</div>
+<!-- ====== End Header ======= -->
+<div class="prev-header hidden-md  animate__animated animate__wobble animate__repeat-2">
+    <div class="container text-center">
+        <div class="row">
+            <div class=" col-md-3 ">
+                <div class="sp-menu">
+                    <div class="img">
+                        <img src="assets/images/img/sanpham_thumb_khaiquat.jpg"></div>
+                    <a href="#sp1"><p class="sp-menu-txt">KHÁI QUÁT</p></a>
+                </div>
+            </div>
+            <div class=" col-md-6 ">
+                <div class="sp-menu">
+                    <div class="bg"></div>
+                    <div class="mouses"></div>
+                    <a href="#sp2"><p class="sp-menu-txt">LỢI ÍCH</p></a>
+                </div>
+            </div>
+            <div class=" col-md-3 ">
+                <div class="sp-menu">
+                    <div class="img"><img src="assets/images/img/sanpham_thumb_dichvu.jpg"></div>
+                    <a href="#sp2"><p class="sp-menu-txt">LỢI ÍCH</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!-- <div class="">
+                <div class="sp-menu">
+                    <div class="img"><img src="assets/images/img/sanpham_thumb_congnghe.jpg"></div>
+                    <a href="#sp3"><p class="sp-menu-txt">CÔNG NGHỆ</p></a>
+                </div>
+            </div> -->
+            <div class=" col-md-3 ">
+                <div class="sp-menu">
+                    <div class="img"><img src="assets/images/img/sanpham_thumb_cachdung.jpg"></div>
+                    <a href="#sp4"><p class="sp-menu-txt">CÁCH DÙNG</p></a>
+                </div>
+            </div>
+            <div class=" col-md-3 " id="sp1">
+                <div class="sp-menu">
+                    <div class="img"><img src="assets/images/img/sanpham_thumb_diemdichvu.jpg"></div>
+                    <a href="#sp5"><p class="sp-menu-txt">ĐIỂM GIAO DỊCH</p></a>
+                </div>
+            </div>
+            <div class=" col-md-6" id="sp1">
+                <div class="sp-menus">
+                    <div class="img"><img src="assets/images/img/sanpham_thumb_diemdichvu.jpg"></div>
+                    <a href="#sp5"><p class="sp-menu-txt">ĐIỂM GIAO DỊCH</p></a>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+</div>
+<!-- ==============Sản Phẩm KQ ============= -->
+<div class="container">
+    <div class="content-kq mt-4">
+        <div class="share-title text-center">
+        </div>
+        <div class="row mt-4">
+            <div class="kq-img col-sm-5 pl-0 animate__animated animate__fadeInLeft" >
+                <img class="img-fluid" src="assets/images/img/SanPham-kq.jpg">
+            </div>
+            <div class="kq-text col-sm-7 animate__animated animate__fadeInRight">
+                <h5 class="color-text mb-3"><strong>KHÁI QUÁT</strong></h5>
+                <p class="mb-3">Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency
+                    Identification) sử
+                    dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên
+                    phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh
+                    toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.</p>
+                <p class="mb-3" id="sp2">Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong
+                    lĩnh vực nhận
+                    diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong
+                    khu vực có hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine)
+                    đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.</p>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- ======== TIỆN ÍCH ========= -->
+    <div class="container">
+        <div class="content-dv mt-4">
+            <div class="share-title text-center">
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-9 col-sm-12 dv-text text-justify animate__animated animate__fadeInLeft animate__delay-2s">
+                    <h5 class="color-text mb-3"><strong>TIỆN ÍCH CỦA DỊCH VỤ</strong></h5>
+                    <div class="bg-light p-3">
+                        <p class="mb-3">Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency
+                            Identification) sử
+                            dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên
+                            phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh
+                            toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.</p>
+                        <p class="mb-3" id="sp2">Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong
+                            lĩnh vực nhận
+                            diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong
+                            khu vực có hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine)
+                            đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.</p>
+                            <p class="mb-3">Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency
+                                Identification) sử
+                                dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên
+                                phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh
+                                toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.</p>
+                            <p class="mb-3" id="sp2">Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong
+                                lĩnh vực nhận
+                                diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong
+                                khu vực có hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine)
+                                đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.</p>
+
+                    </div>
+    
+                </div>
+    
+                <div class="col-md-3  hidden-m dv-img">
+                    <div class="box-warpper  animate__animated animate__pulse animate__infinite">
+                        <img src="./assets/images/img/pro_home_icon_loiich.png" alt="">
+                        
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- ======== LỢI ÍCH ========= -->
+ <div class="container">
+    <div class="content-dv mt-4">
+        <div class="share-title text-center"></div>
+            <div class="col-md-9 col-sm-6 dv-text text-justify">
+                <h5 class="color-text mt-4"><strong>LỢI ÍCH CỦA DỊCH VỤ</strong></h5>
+            </div>
+        <div class="mony">
+            <div class="row mt-3">
+                <div class="col-md-4 col-sm-6 bd">
+                    <div class="mony-nn text-center">
+                        <h5 class="color-text ">Nhà nước</h5>
+                        <img src="assets/images/icons/pro_sanpham_loiich_06.png">
+                        <p class="text-center pb-3">Xây dụng được cơ sở dữ  liệu <br>
+                           quốc gia về giao thông</p>
+                    </div>
+                    <div class="mony-bot text-center">
+                        <h5 class="color-text mb-3">Nhà đầu tư BOT</h5>
+                        <div class="d-flex text-center">
+                            <img class="pl-5" class="pl-5" src="assets/images/icons/pro_sanpham_loiich_18.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+    
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_18.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+    
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_18.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_18.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 col-sm-6 bd">
+                    <div class="mony-nn text-center">
+                        <h5 class="color-text">CHỦ PHƯƠNG TIỆN </h5>
+                        <img src="assets/images/icons/pro_sanpham_loiich_06.png">
+                        <p class="">Tiết kiệm thời gian <br>
+                           Tiết kiệm nhiên liệu <br>
+                           Tăng tuổi thọ
+                        </p>
+
+                     <div class="mony-bot text-center">
+                        <h5 class="color-text">Nhà đầu tư BOT</h5>
+                        <div class="d-flex text-center">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_45.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_34.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+    
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_27.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+                        <div class="d-flex text-center mt-3">
+                            <img class="pl-5" src="assets/images/icons/pro_sanpham_loiich_45.png">
+                            <p>Tránh thất thoát</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 hidden-m">
+                    <div class="mony-tk">
+                        <h5 class="color-purple text-center mt-4 "><strong>TIẾT KIỆM ÍT NHẤT</strong></h5>
+                        <h1 class="color-text tk-number text-center">3.400</h1>
+                        <div class="d-flex pl-4 position-relative">
+                            <img class="mt-4"
+                            src="assets/images/icons/pro_sanpham_loiich_09.png">
+                            <img class="money money2 animate__animated  animate__fadeInDown animate__infinite" src="assets/images/icons/pro_sanpham_loiich_29.png">
+                            <div class="">
+                                <p class="ml-5"> <strong>tỷ đồng /năm</strong> </p>
+                                <p  id="sp3" class="ml-5">Tổng lợi ích kinh tế - xã hội mà hệ thống thu phí
+                                    tự động đường bộ VETC mang lại cho
+                                    Việt Nam</p>
+                            </div>
+                        </div>
+                        <img class="money3" src="assets/images/icons/pro_sanpham_loiich_24.png">
+
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+<!-- ======== CÔNG NGHỆ  ========= -->
+<div  class="container">
+    <div class="content-dv mt-4">
+        <div class="share-title text-center"></div>
+        <h5 class="color-text mt-4 color-text "><strong>CÔNG NGHỆ </strong></h5>
+        <p class="text-justify bg-light text-secondary" >DỊCH VỤ THU PHÍ TỰ ĐỘNG ĐƯỜNG BỘ VETC ÁP DỤNG CÔNG NGHỆ RFID THEO TIÊU 
+           CHUẨN MỸ ISO/IEC 1800-6 RFID DẢI TẦN 860 MHZ ĐẾN 960 MHZ . CÔNG NGHỆ NÀY CHO PHÉP NHẬN BIẾT CÁC ĐỐI TƯỢNG THÔNG QUA HỆ THỐNG THU PHÁT SÓNG RIDIO , TỪ ĐÓ CÓ THỂ GIÁM SÁT , QUẢN LÝ HOẶC VẾT TỪNG ĐÔÍ TƯỢNG </p>
+        <div class="row">
+            <div class="col-md-9 col-sm-5 text-justify">
+                <ul>
+                    <li class="color-text">Công nghệ sử dụng Dịch vụ thu  phí tự động đường bộ VETC được áp dụng công nghệ RFID </li>
+                    <p> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                        Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                        hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                    </p>
+                    <p> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                        Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                        hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                    </p>
+                    <li class="mony-bot color-text hidden-m"> THIẾT BỊ </li>
+                    <p class="hidden-m">  -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                        Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                        hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                    </p>
+                  
+                    <li id="sp4"class="mony-bot color-text hidden-m"> MÔ HÌNH</li>
+                    <p class="hidden-m"> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                        Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                        hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                    </p>
+                </ul>
+
+
+            </div>    
+            <div class="col-md-3 col-sm-7 ">
+                <img class="img-fluid w-100" src="./assets/images/img/pro_tintuc_banner.jpg" alt="">
+
+            </div>
+    </div>
+   </div>
+   <!-- =========CACHS DUNG ======= -->
+   <div  class="content-dv mt-4">
+    <div class="share-title text-center"></div>
+    <h5  class="color-text mt-4 color-text "><strong>CÁCH DÙNG </strong></h5>
+    <div class="row">
+        <div class="col-md-9 col-sm-5 text-justify">
+            <ul>
+                <li class="color-text">Công nghệ sử dụng Dịch vụ thu  phí tự động đường bộ VETC được áp dụng công nghệ RFID </li>
+                <p> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                    Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                    hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                </p>
+                <p> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                    Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                    hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                </p>
+                <li class="mony-bot color-text hidden-m"> THIẾT BỊ </li>
+                <p class="hidden-m">  -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                    Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                    hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                </p>
+              
+                <li class="mony-bot color-text hidden-m"> MÔ HÌNH</li>
+                <p  id="sp5" class="hidden-m"> -Dịch vụ thu phí tự động đường bộ VETC được áp dụng công nghệ RFID (Radio Frequency Identification) sử dụng sóng radio để nhận diện tự động phương tiện xe cơ giới. Thông qua thẻ định danh VETC dán trên phương tiện, dịch vụ VETC giúp phương tiện lưu thông qua trạm thu phí không phải dừng chờ thanh toán, giữ được tốc độ lưu thông ổn định và tiết kiệm nhiên liệu.
+                    Công nghệ RFID đã được chứng minh có độ chính xác cao, khá phổ biến trên thế giới trong lĩnh vực nhận diện điện tử và đã khẳng định được vị thế số 1 trong lĩnh vực thu phí tự động. Rất nhiều nước trong khu vực có 
+                    hạ tầng giao thông và xã hội gần tương tự Việt Nam (như Malaysia, Indonesia, Philippine) đã dừng triển khai các công nghệ cũ (Smart card, OBU, DSRC) để chuyển đổi sang công nghệ RFID.
+                </p>
+            </ul>
+
+
+        </div>    
+        <div class="col-md-3 col-sm-7 ">
+            <img class="img-fluid w-100" src="./assets/images/img/pro_sanpham_bannerRFID.png" alt="">
+
+        </div>
+</div>
+</div>
+<!-- ==========DDV======= -->
+  <div class="content-dv mt-4">
+    <div class="share-title text-center"></div>
+    <h5   class="color-text mt-4 color-text "><strong> ĐIỂM DỊCH VỤ VETC</strong></h5>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="download mb-4 d-flex  justify-content-center align-items-center">
+                <div class="download-up text-warning text-right">VUI LÒNG</div>
+            <a href="#"><img src="assets/images/icons/sanpham_download.jpg" alt=""></a>
+            <div class="download-up text-warning ">VUI LÒNG</div>
+            </div>
+
+        </div>
+
+      
+
+   </div>
+  </div>
+</div>
+
+
+<div class="intro">
+    <!-- <div class="row">
+        <div class="intro-warpper col-md-6">
+            <div class="intro-comtent float-right animate__animated animate__fadeInDown animate__delay-2s">
+                <div class="title d-md-inline-block-text-center animate__animated animate__fadeInLeft">
+                    <div class="title d-md-inline-block text-centeranimate__animated animate__fadeInLeft animate__delay-2s"><a
+                        class="intro-text" href="#">LỢI ÍCH</a></div>
+                        <div class="img-intro d-md-inline-block"> 
+                            <img class="img-fluid" src="assets/images/img/pro_home_icon_loiich.png">
+        
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="mouse hidden-m">
+		</div>
+        <div class="col-md-6 intro-two">
+            <div class="intro-content animate__animated animate__fadeInDown animate__delay-2s">
+                <div class="img-intro d-md-inline-block"><img class="img-fluid" src="assets/images/img/pro_home_icon_cachdung.png"></div>
+                <div class="title d-md-inline-block text-center animate__animated animate__fadeInRight animate__delay-2s"><a
+                        class="intro-text" href="#">CÁCH DÙNG</a></div>
+
+                        <div class=" intro-chat  d-md-inline-block hidden-m"> <a href="#"> <img src="./assets/images/icons/common_chat_icon.png" alt=""></a></div>  
+            </div>
+
+        </div>
+    </div> -->
+    <div class="vetc text-center">
+        <div class="container">
+            <div class="vetc-text d-lg-inline-block">
+                I
+                <span class="withLove">
+          <img src="assets/images/icons/common_fbslogan_icon_heart.png">
+      </span>
+                VETC
+            </div>
+            <span class="vetc-space hidden-m">|</span>
+            <span class="vetc-slogan">HÃY CÙNG CHÚNG TÔI
+                    SỐNG HIỆN ĐẠI, LÁI VĂN MINH
+            </span>
+            <img src="assets/images/icons/common_fbslogan_icon_fb.png">
+        </div>
+    </div>
+</div> 
+
+<!-- ===========Concact====== -->
+<div class="concact">
+    <div class="contact-home pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-3">
+                    <p>ĐĂNG KÝ NHẬN THÔNG TIN TỪ VETC</p>
+                    <form class="top-form d-inline-block" action="">
+                        <input type="hidden" name="page" value="1">
+                        <div class="input-group-sm">
+                            <input type="text" class="form-control" name="search" value="" placeholder="Tìm kiếm">
+                            <a href="#"><img src="assets/images/icons/common_top_search.png"></a>
+                        </div>
+                    </form>
+        
+                </div>
+                <div class="col-md-4 icons text-center mb-3">
+                    <p>THEO DÕI CHÚNG TÔI</p>
+                    <img src="assets/images/icons/common_icon_social_fb.png">
+                    <img src="assets/images/icons/common_icon_social_googleplus.png">
+                    <img src="assets/images/icons/common_icon_social_linkedin.png">
+                    <img src="assets/images/icons/common_icon_social_youtube.png">
+                </div>
+                <div class="col-md-4 app text-center mb-3">
+                    <p>TẢI VÀ CÀI ĐẶT ỨNG DỤNG VETC</p>
+                    <img class="mr-3"src="assets/images/icons/common_icon_app_android.png">
+                    <img src="assets/images/icons/common_icon_app_ios.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="cskh mt-5">
+            <div class="custom-title text-center">
+                <span class="color-text">CHIA SẺ VỀ VETC</span>
+            </div>
+            <div class="row text-center mt-4">
+                <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
+                    <div class="cskh-box">
+                        <p class="color-text">TỔNG ĐÀI CHĂM SÓC KHÁCH HÀNG</p>
+                        <img src="assets/images/icons/common_icon_footer_phone.png">
+                        <h4 class="color-purple font-weight-bold"> 1900 6010</h4>
+                        <p class="color-text">Hỗ trợ 24/7</p>
+                        <p class="color-text">Sẵn sàng hỗ trợ bạn vào mọi thòi điểm</p>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
+                    <div class="cskh-box">
+                        <p class="color-text">CÂU HỎI THƯỜNG GẶP</p>
+                        <img src="assets/images/icons/common_icon_footer_faq.png">
+                        <p>Câu hỏi thường gặp liên quan tới VETC</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 animate__animated animate__fadeInRight animate__delay-2s">
+                    <div class="cskh-box">
+                        <p class="color-text">HỖ TRỢ TRỰC TUYẾN</p>
+                        <img src="assets/images/icons/common_icon_footer_chat.png">
+                        <p>Mọi thắc mắc của bạn sẽ được nhân viên VETC tư vấn và hỗ trợ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========Footer========== -->
+<div class="banner-footer">
+    <div class="container">
+        <div class="banner-line"></div>
+        <div class="row">
+            <div class="col-md-4 color-white">
+                <div class="banner-title">
+                    <p class="text-white text-center">HỢP TÁC CÙNG PHÁT TRIỂN</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="owl-partner" class="owl-carousel owl-theme list-inline list-banner-footer">
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_1.gif" alt=""/></a>
+                    </div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_2.gif" alt=""/></a>
+                    </div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_3.gif" alt=""/></a>
+                    </div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_4.gif" alt=""/></a>
+                    </div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_5.gif"
+                                                       alt=""/></a></div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_6.gif"
+                                                       alt=""/></a></div>
+                    <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_7.gif"
+                                                       alt=""/></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-md-4 text-center-md">
+                <div class="row">
+                    <div class="col-md-10">
+                        <p class="text-uppercase"><strong>CTY TNHH THU PHÍ TỰ ĐỘNG VETC</strong></p>
+                        <div class="company-info">
+                            <p>ĐỊA CHỈ_ Tầng 1, tòa nhà VPI, 167 Trung Kính, Yên Hòa, Cầu Giấy, Hà Nội.</p>
+                            <p>ĐIỆN THOẠI_ (84 - 24) 3 747 6666</p>
+                            <p>FAX_ (84 - 24) 3 747 2222</p>
+                            <p>WEBSITE_ <a href="index.html" target="_blank">www.vetc.com.vn</a></p>
+                        </div>
+                        <div class="mt-3">
+                            <span class="line"></span>
+                            <h6 class="color-purple font-weight-bold"> CHĂM SÓC KHÁCH HÀNG <br>
+                                HOTILINE 1900 6010</h6>
+                             <span class="line"></span>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 hidden-md">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p class="text-uppercase"><strong>VỀ CHÚNG TÔI</strong></p>
+                        <ul class="list-unstyled onepage">
+                            <li><a href="">Giới thiệu chung</a></li>
+                            <li><a href="">Tầm nhìn - sứ mệnh</a></li>
+                            <li><a href="">Hội đồng Quản trị</a></li>
+                            <li><a href="">Ban lãnh đạo</a></li>
+                            <li><a href="">Thành tựu</a></li>
+                            <li><a href="">VETC Thương hiệu</a></li>
+                            <li><a href="">VETC Văn hóa</a></li>
+                            <li><a href="">Thư viện</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="text-uppercase"><strong>Sản phẩm</strong></p>
+                        <ul class="list-unstyled onepage">
+                            <li><a href="">Khái quát</a></li>
+                            <li><a href="">Lợi ích</a></li>
+                            <li><a href="">Công nghệ</a></li>
+                            <li><a href="">Cách dùng</a></li>
+                            <li><a href="">Điểm dịch vụ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="text-uppercase"><strong>Tin tức</strong></p>
+                        <ul class="list-unstyled onepage">
+                            <li><a href="">Tin xã hội</a></li>
+                            <li><a href="">Tin doanh nghiệp</a></li>
+                            <li><a href="">Chính sách bảo mật thông
+                                tin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="text-uppercase"><strong>Quản lý dịch vụ trực tuyến</strong></p>
+                        <ul class="list-unstyled">
+                            <li><a href="">Khách hàng</a></li>
+                            <li><a href="">Đại lý</a></li>
+                            <li><a href="">Nhà đầu tư BOT</a></li>
+                            <li><a href="">Cơ quan quản lý nhà nước</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Include Javascript-->
+
+<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/plugins/mScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+<script src="assets/js/plugins/skdslider/skdslider.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
