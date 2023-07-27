@@ -226,6 +226,12 @@ a {
     display: none;
   }
 }
+@media (max-width: 768px) {
+    .container,
+    .mony{
+      padding: 0px !important;
+    }
+}
 
 
 /* ========Banner=========== */
@@ -314,7 +320,7 @@ a {
   margin-top: -17px;
 }
 
-.skdslider a.next {
+/* .skdslider a.next {
   background: url(../images/icons/right.png) no-repeat scroll 0 0 transparent;
   width: 35px;
   height: 35px;
@@ -353,7 +359,7 @@ a {
   width: 17px;
   margin-right: 4px;
   cursor: pointer;
-}
+} */
 
 
 /* ==========intro */
@@ -831,4 +837,166 @@ a {
   font-family: "VETCRegular-Regular";
   border-bottom: 1px solid #492b7a;
   font-weight: 700;
+}
+
+
+
+
+/* ===========TIN TUC======== */
+.content-gtc .content-title{
+ border-top: 2px solid #06ad5d ;
+}
+.content-gtc .content-title h5{
+  color: #333;
+  font-family: "VETC-Bold";
+  font-size: 17px !important;
+}
+
+.content-gtc span{
+  font-family: "VETCLight-Regular";
+  display: block;
+  font-size: 10px !important;
+
+}
+.content-gtc .content-tt{
+  color: #333;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  font-family: "VETC-Bold";
+  font-size: 15px !important;
+}
+.paragraph p{
+  font-family: "VETCLight-Regular";
+  font-size: 13px !important;
+}
+.content-gtc .text{
+  background-color: #01c46b;
+  color: #fff;
+  font-family: "VETCLight-Regular";
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+.info {
+  border-top: 2px solid #01c46b;
+  border-bottom: 2px solid #01c46b;
+  padding: 5px;
+}
+.info .violot{
+  color:  #492b7a;
+  font-family: "VETC-Bold";
+}
+.intro p{
+  margin-bottom: 0px;
+}
+
+.related-news h6{
+  background-color: #01c46b;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "VETCLight-Regular";
+}
+.related-news p{
+  color: #b0b9b9;
+  font-size: 13px;
+  font-family: "VETCLight-Regular";
+}
+.images{
+    position: relative;
+    background-color: #01c46b;
+    background-position: right 35%;
+}
+
+.dm-images{
+  color: #fff;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "VETC-Bold";
+  left: 5%;
+  top: 5%;
+  position: absolute;
+}
+
+.last-new  .box-news h5{
+  font-size: 17px !important;
+  font-family: "VETC-Bold";
+}
+.last-new  .box-news p{
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: "VETCLight-Regular";
+}
+.pagination li.active a{
+  border: 1px solid #01c46b;
+  color: #fff;
+  background: #01c46b;
+}
+
+.pagination li a {
+  border-radius: 0 !important;
+    border: 1px solid #cdcdcd;
+    color: #626263;
+    padding: 7px 12px !important;
+    margin: 0 2px !important;
+    font-size: 22px;
+}
+
+
+/* =======gallery===== */
+.box-gallery {
+  color: #fff !important;
+  background: #25a55e !important;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.box-gallery .content-gallery {
+  position: relative;
+}
+.box-gallery .content-gallery p {
+  padding: 10px 0;
+}
+.box-gallery .content-gallery p a {
+  color: #fff !important;
+}
+ .box-gallery .content-gallery .img-responsive {
+  border-radius: 8px;
+  width: 100%;
+}
+.box-gallery .content-gallery .btn-play{
+  position: absolute;
+  top: 45%;
+  left: 40%;
+
+}
+
+.lg-outer .lg-icon {
+  text-indent: -99999999px;
+  width: 40px !important;
+  height: 40px !important;
+}
+.lg-outer .lg-prev {
+  background: url("../images/icons/prev.jpg") no-repeat !important;
+}
+.lg-outer .lg-prev:hover {
+  background: url("../images/icons/prev-hover.jpg") no-repeat !important;
+}
+.lg-outer .lg-next {
+  background: url("../images/icons/next-icon.jpg") no-repeat !important;
+}
+.lg-outer .lg-next:hover {
+  background: url("../images/icons/next-icon-hover.jpg") no-repeat !important;
+
+}
+.lg-outer .lg-thumb-outer .lg-toogle-thumb {
+  background: url("../images/icons/menu.png") no-repeat !important;
+}
+.lg-outer .lg-thumb-outer .lg-toogle-thumb:hover {
+  background: url("../images/icons/menu-hover.png") no-repeat !important;
+}
+.lg-outer .lg-close {
+  background: url("../images/icons/close.PNG") no-repeat !important;
+}
+.lg-outer .lg-close:hover {
+  background: url("../images/icons/close-hover.png") no-repeat !important;
 }

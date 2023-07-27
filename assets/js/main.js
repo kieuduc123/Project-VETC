@@ -9,7 +9,8 @@ var main = {
             margin: 10,
             nav: true,
             items: 1,
-            dots: false
+            dots: false,
+            autoplay: true
         });
         $(".list-banner-footer").owlCarousel({
             loop: true,
@@ -27,12 +28,19 @@ var main = {
             theme: "3d",
         });
     },
+    Lightgallery: function () {
+        $("#lightgallery").lightGallery();
+        
+        $("#video-player-param").lightGallery();
+
+    },
     Model: function () {
         $('#register-model').modal('show');
     },
     Start: function () {
         this.SliderHomePage();
         this.SlideScroll();
+        this.Lightgallery();
         this.Model();
         this.Skdslider();
 
@@ -52,5 +60,3 @@ jQuery('.skdslider').skdslider({
     
   
   });
-
-
