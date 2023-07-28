@@ -30,7 +30,7 @@ var main = {
     },
     Lightgallery: function () {
         $("#lightgallery").lightGallery();
-        
+
         $("#video-player-param").lightGallery();
 
     },
@@ -39,7 +39,7 @@ var main = {
     },
     Start: function () {
         this.SliderHomePage();
-        this.SlideScroll();
+        // this.SlideScroll();
         this.Lightgallery();
         this.Model();
         this.Skdslider();
