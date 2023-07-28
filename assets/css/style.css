@@ -253,6 +253,9 @@ a {
     .form-check-label {
       margin-left: 18px !important;
   }
+  iframe{
+    display: none !important;
+  }
 }
 
 
@@ -987,7 +990,7 @@ a {
 }
 .box-gallery .content-gallery .btn-play{
   position: absolute;
-  top: 45%;
+  top: 47%;
   left: 40%;
 
 }
@@ -1079,6 +1082,18 @@ margin-bottom: 0px !important;
   border-bottom: 1px solid #01c46b
 }
 
-@media max-width: 100%; {
-  
+/* ==========dvcskh======== */
+.dvcskh h4 {
+  font-size: 18px;
+  font-family: "VETC-Bold";
+}
+.title h5{
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "VETC-Bold";
+}
+.title p{
+  font-size: 12px;
+  font-family: "VETCLight-Regular";
+  color: #898b8b;
 }
