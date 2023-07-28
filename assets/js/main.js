@@ -39,7 +39,7 @@ var main = {
     },
     Start: function () {
         this.SliderHomePage();
-        // this.SlideScroll();
+        this.SlideScroll();
         this.Lightgallery();
         this.Model();
         this.Skdslider();

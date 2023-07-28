@@ -234,7 +234,9 @@ a {
   }
   .input-grop1 input{
     border-top: #01c46b;
-
+  }
+  iframe{
+    width: 215px !important;
   }
 }
 @media (max-width: 768px) {
@@ -245,8 +247,11 @@ a {
     .sex{
       padding: 0px !important;
     }
+    .form-check-input {
+      margin-left: 0px !important;
+  }
     .form-check-label {
-      margin-left: 34px;
+      margin-left: 18px !important;
   }
 }
 
