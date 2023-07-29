@@ -1097,3 +1097,24 @@ margin-bottom: 0px !important;
   font-family: "VETCLight-Regular";
   color: #898b8b;
 }
+
+
+/* =======tuyen dung======== */
+.summary p{
+  color: #898b8b;
+  font-family: "VETCLight-Regular"
+
+}
+.title_recument {
+  padding-bottom: 24px;
+}
+.contents img{
+  max-width: 100%;
+}
+
+.contents p {
+  display: block;
+  text-align: justify;
+  font-family: "VETCLight-Regular";
+  color: #898b8b;
+}
