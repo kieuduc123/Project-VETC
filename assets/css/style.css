@@ -706,6 +706,12 @@ a {
 
 
 /* ============san pham=========== */
+.prev-header {
+  position: sticky;
+  top: -130px;
+  z-index: 100;
+  background: #fff;
+}
 .prev-header .container {
   padding-left: 4px !important;
   padding-right: 4px !important;
@@ -1244,5 +1250,9 @@ margin-bottom: 0px !important;
   }
 .download-up {
   margin-bottom: 1px !important;
+}
+.col-md-5-custom {
+  width: 20% !important;
+  flex: 0 0 20%;
 }
 }
