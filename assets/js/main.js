@@ -37,23 +37,11 @@ var main = {
         $("#video-player-param").lightGallery();
 
     },
-    // Model: function () {
-    //     $('#register-model').modal('show');
-    // },
-    // Hover: function () {
-    //     $(".nav-item").hover(function () {
-    //         $(this).addClass('show');
-    //         $(this).children(".dropdown-menu").addClass('show');
-    //     }, function () {
-    //         $(this).removeClass('show');
-    //         $(this).children(".dropdown-menu").removeClass('show');
-    //     });
-    // },
+   
     Start: function () {
         this.SliderHomePage();
         this.SlideScroll();
         this.Lightgallery();
-        this.Model();
         this.Skdslider();
 
     }
@@ -62,13 +50,13 @@ $(document).ready(function () {
     main.Start();
 });
 jQuery('.skdslider').skdslider({
- // Delay duration between two slides
-    'delay':5000, 
-    'animationSpeed': 500,
-    showNav: true,
-    'pauseOnHover':false,
-    'showPlayButton':false,
-    stopSlidingAfter: false,
-    
-  
-  });
+    // Delay duration between two slides
+       'delay':5000, 
+       'animationSpeed': 500,
+       showNav: true,
+       'pauseOnHover':false,
+       'showPlayButton':false,
+       stopSlidingAfter: false,
+
+     });
+   
