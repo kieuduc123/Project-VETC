@@ -415,7 +415,7 @@ a {
 
 
 
-/* ======new====== */
+/* ======NEWs====== */
 .widget-title {
   margin-bottom: -6px;
 }
@@ -501,7 +501,7 @@ a {
 }
 
 
-/* =========CuSTROM BAR ======= */
+/* =========SAN PHAM ======= */
 /*Share*/
 .share-title {
   background: url(../images/icons/common_separate_bgr_1.png) repeat-x;
@@ -547,6 +547,63 @@ a {
   width: 740px;
   max-width: 95%;
 }
+
+.moto{
+  background-color: #e9e7e7;
+  height: 550px !important;
+  width: 100% !important;
+  overflow: hidden;
+}
+.moto .objetc-pro1 {
+  z-index: 10 !important;
+}
+.moto .object-pro{
+  position: absolute;
+}
+
+.moto .moto1{
+  animation-name: vetc;
+  --animate-duration: 7s !important;
+}
+@keyframes vetc {
+  from{
+    bottom: 0;
+    left: 0;
+  }
+  to{
+    bottom: 105%;
+    left: 100%;
+  }
+}
+.moto .moto2{
+  animation-name: vetc1;
+  --animate-duration: 5s !important;
+}
+.moto .moto3{
+  animation-name: vetc2;
+  --animate-duration: 6s !important;
+}
+@keyframes vetc1 {
+  from {
+    bottom: -5%;
+    left: 20%;
+  }
+  to {
+    bottom: 10%;
+    left: 38%;
+  }
+}
+@keyframes vetc2 {
+  from {
+    bottom: -30%;
+    left: 0%;
+  }
+  to {
+    bottom: 3%;
+    left: 30%;
+  }
+}
+
 
 /* =========Concact========= */
 .concact .contact-home{
