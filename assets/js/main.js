@@ -25,18 +25,30 @@ var main = {
 
     SlideScroll: function () {
         $("#content-1").mCustomScrollbar({
+            scrollButtons: {
+                enable: true
+            },
             theme: "3d",
+            scrollbarPosition: "outside"
         });
     },
     Lightgallery: function () {
         $("#lightgallery").lightGallery();
-
         $("#video-player-param").lightGallery();
 
     },
-    Model: function () {
-        $('#register-model').modal('show');
-    },
+    // Model: function () {
+    //     $('#register-model').modal('show');
+    // },
+    // Hover: function () {
+    //     $(".nav-item").hover(function () {
+    //         $(this).addClass('show');
+    //         $(this).children(".dropdown-menu").addClass('show');
+    //     }, function () {
+    //         $(this).removeClass('show');
+    //         $(this).children(".dropdown-menu").removeClass('show');
+    //     });
+    // },
     Start: function () {
         this.SliderHomePage();
         this.SlideScroll();
