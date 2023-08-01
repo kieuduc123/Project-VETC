@@ -633,10 +633,13 @@ a {
   position: absolute;
 }
 .concact .icons img{
+  
   width: 36px;
   padding: 0 3px;
 }  
 .concact .app img{
+  border: 1px solid #dcddde;;
+  border-radius: 11px;
   width: 117px !important;
   height: 40px !important;
 }
