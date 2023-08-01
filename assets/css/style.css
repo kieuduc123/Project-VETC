@@ -28,7 +28,9 @@
 /*============================
   Common Style
  ============================*/
-
+h6{
+  margin: 0 !important;
+}
 .sprites {
   display: inline-block;
   font-style: normal;
@@ -153,7 +155,7 @@ a {
   padding: 0 1rem !important;
 }
 .header-nav .navbar .nav-item {
-  padding: 7px 1px;
+  padding: 6px 1px;
 }
 .header-nav .navbar .nav-item .dropdown-item {
   padding: 0.3rem 0.75rem;
@@ -182,6 +184,10 @@ a {
   background: #23c66c;
   border-radius: 0 !important;
   z-index: 111;
+}
+.dropdown-menu {
+ 
+  border-radius: 0px !important;
 }
 .commnan-top {
   right: 10%;
@@ -219,6 +225,14 @@ a {
   width: auto !important;
   height: auto !important;
   z-index: -1;
+}
+.slide .slide-desc h3{
+  font-size: 22px;
+  font-family: "VETCRegular-Regular";
+}
+.slide .slide-desc p{
+  font-size: 18px;
+  font-family: "VETCRegular-Regular";
 }
 .skdslider .slide-1 {
   color: #fff !important;
@@ -417,12 +431,12 @@ a {
 
 /* ======NEWs====== */
 .widget-title {
-  margin-bottom: -6px;
+  margin-bottom: -7px;
 }
 .widget-title img {
   margin-bottom: 6px;
   width: 26px !important;
-  height: 27px !important;
+  height: 29px !important;
   display: inline-block !important;
 }
 .widget-title .left {
@@ -438,7 +452,8 @@ a {
   font-size: 18px !important;
   text-transform: uppercase;
   margin-bottom: 0;
-  padding: 4px 10px;
+  padding-top: 4.4px;
+  padding-bottom: 4.5px;
 }
 .news-home .widget-content.item-rd {
   position: relative;
@@ -618,10 +633,11 @@ a {
   position: absolute;
 }
 .concact .icons img{
-    padding: 0 3px;
+  width: 36px;
+  padding: 0 3px;
 }  
 .concact .app img{
-  width: 109px !important;
+  width: 117px !important;
   height: 40px !important;
 }
 .concact .cskh .cskh-box{
@@ -795,12 +811,18 @@ a {
   font-weight: bold;
   display: block;
 }
+.prev-header  .sp-menu  a:active {
+  background: #25a55e !important;
+}
 .prev-header .sp-menu p:hover,
 .prev-header .sp-menus p:hover{
   color: #fff !important;
   background: #25a55e !important;
 }
-
+.sp-links .active{
+  color: #fff !important;
+  background: #25a55e !important;
+}
 /* =============****======== */
 .share-title {
   text-align: center;
@@ -1043,12 +1065,13 @@ a {
   padding: 5px;
   width: 100%;
   border: none;
-  border-right: 1px solid #01c46b;
-  border-bottom: 1px solid #01c46b;
-
 }
 label{
   color: #492b7a;
+}
+.input-grop{
+  border-top: 1px solid #01c46b;
+  border-bottom: 1px solid #01c46b
 }
 .sex{
 padding: 5px;
@@ -1060,12 +1083,15 @@ margin-bottom: 0px !important;
 .form-check-label{
   margin-left: 57px;
 }
+
+.input-grop1 {
+  border-right: 1px solid #01c46b;
+
+}
 .input-grop2 input{
   padding: 5px;
   width: 100%;
   border: none;
-  border-top: 1px solid #01c46b;
-  border-bottom: 1px solid #01c46b;
 }
 .input-grop3 input{
   padding: 5px;
@@ -1142,6 +1168,20 @@ margin-bottom: 0px !important;
   display: inline-block;
 }
 
+.animate__animated.animate__bounceInLeft{
+  --animate-duration: 5s !important;
+  --animation-timing-function:  3s ease-in !important;
+}
+.animate__animated.animate__fadeInLeft{
+  --animate-duration: 5s !important;
+  --animation-timing-function:  3s ease-in !important;
+}
+.animate__animated.animate__fadeInRight{
+  --animate-duration: 5s !important;
+  --animation-timing-function:  3s ease-in !important;
+}
+
+
 /* ========responsive======= */
 @media (min-width: 992px) and (max-width: 1366px) {
   .nav-header {
@@ -1210,9 +1250,9 @@ margin-bottom: 0px !important;
   .input-grop1 input{
     border-top: #01c46b;
   }
-  iframe{
+  /* iframe{
     width: 215px !important;
-  }
+  } */
 .download-up {
     margin-bottom: 10px;
 }
@@ -1254,5 +1294,16 @@ margin-bottom: 0px !important;
 .col-md-5-custom {
   width: 20% !important;
   flex: 0 0 20%;
+}
+.slide .slide-desc h3{
+  font-size: 18px !;
+  font-family: "VETCRegular-Regular";
+}
+.slide .slide-desc p{
+  font-size: 14px !important;
+  font-family: "VETCRegular-Regular";
+}
+.mony .bd {
+  border-right: none;
 }
 }
