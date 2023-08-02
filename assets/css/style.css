@@ -148,7 +148,7 @@ a {
 }
 .header-nav .show {
   display: block;
-  background: #23c66c;
+  background: #24a15c ;
   z-index: 111;
 }
 .header-nav .navbar {
@@ -159,6 +159,9 @@ a {
 }
 .header-nav .navbar .nav-item .dropdown-item {
   padding: 0.3rem 0.75rem;
+}
+.header-nav .navbar .nav-item:hover{
+  background: #23c66c;
 }
 .header-nav .navbar .nav-item .dropdown-item:hover {
   background: #23c66c;
@@ -814,15 +817,14 @@ a {
   font-weight: bold;
   display: block;
 }
-.prev-header  .sp-menu  a:active {
-  background: #25a55e !important;
-}
+
 .prev-header .sp-menu p:hover,
 .prev-header .sp-menus p:hover{
-  color: #fff !important;
-  background: #25a55e !important;
+  color: #fff ;
+  background: #25a55e ;
 }
-.sp-links .active{
+.sp-links.active p{
+  transition: 2s;
   color: #fff !important;
   background: #25a55e !important;
 }
@@ -1173,15 +1175,15 @@ margin-bottom: 0px !important;
 
 .animate__animated.animate__bounceInLeft{
   --animate-duration: 5s !important;
-  --animation-timing-function:  3s ease-in !important;
+  --animation-timing-function:  5s ease-in !important;
 }
 .animate__animated.animate__fadeInLeft{
-  --animate-duration: 5s !important;
-  --animation-timing-function:  3s ease-in !important;
+  --animate-duration: 3s !important;
+  --animation-timing-function:  4s ease-in !important;
 }
 .animate__animated.animate__fadeInRight{
-  --animate-duration: 5s !important;
-  --animation-timing-function:  3s ease-in !important;
+  --animate-duration: 3s !important;
+  --animation-timing-function:  4s ease-in !important;
 }
 
 
