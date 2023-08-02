@@ -1247,7 +1247,6 @@ margin-bottom: 0px !important;
     .mony-tk .money2 {
       position: absolute;
       right: 74%;
-      z-index: 9999;
       bottom: 3%;
     }
   /* =====map=== */
