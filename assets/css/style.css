@@ -1315,4 +1315,8 @@ margin-bottom: 0px !important;
 .mony .bd {
   border-right: none;
 }
+.header-nav .navbar .nav-item {
+  margin: 6px 1px;
+  padding: 0 !important;
+}
 }
