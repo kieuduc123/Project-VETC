@@ -756,7 +756,7 @@ a {
   background-color: #0db26d;
 }
 .bg:after{
-  z-index: 999;
+    z-index: 999;
     content: "";
     top: 0;
     left: 47%;
@@ -823,6 +823,11 @@ a {
   color: #fff ;
   background: #25a55e ;
 }
+/* .sp-menu a.active p{
+  transition: 2s;
+  color: #fff !important;
+  background: #25a55e !important;
+} */
 .sp-links.active p{
   transition: 2s;
   color: #fff !important;
@@ -1177,13 +1182,13 @@ margin-bottom: 0px !important;
   --animate-duration: 5s !important;
   --animation-timing-function:  5s ease-in !important;
 }
-.animate__animated.animate__fadeInLeft{
+.animate__animated.animate__fadeOut{
   --animate-duration: 3s !important;
-  --animation-timing-function:  4s ease-in !important;
+  --animation-timing-function:  3s ease-in !important;
 }
-.animate__animated.animate__fadeInRight{
-  --animate-duration: 3s !important;
-  --animation-timing-function:  4s ease-in !important;
+.animate__animated.animate__fadeInDown{
+  --animate-duration: 2s !important;
+  --animation-timing-function:  2s ease-in !important;
 }
 
 

@@ -14,4 +14,26 @@ window.addEventListener('scroll',() =>{
             spMenus.classList.add('active');
         }
     })
-})
+});
+
+
+
+// const sectionEls = document.querySelectorAll('.section');
+// const spMenus = document.querySelectorAll('.sp-menu a');
+// let currentSection = 'sp1';
+// window.onscroll = () =>{
+//     sectionEls.forEach(sec =>{
+//         let top = window.scrollY;
+//         let offset = sec.offsetTop -150;
+//         let height = sec.offsetHeight;
+//         currentSection = sec.id
+//         if(top > offset && top < offset + height){
+//             spMenus.forEach(links =>{
+//                 links.classList.remove('active')
+//                 document.querySelector('.sp-menu  a[href*= '+id+']').classList.add('active')
+//             })
+//         }
+
+
+//     });
+// }
