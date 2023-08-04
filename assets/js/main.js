@@ -58,5 +58,6 @@ jQuery('.skdslider').skdslider({
        'showPlayButton':false,
        stopSlidingAfter: false,
 
-     });
-   
+ });
+
+

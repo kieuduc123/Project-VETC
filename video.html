@@ -5,155 +5,134 @@
     <title>VETC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Include CSS-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/lightgallery.css">
+    <link rel="stylesheet" href="assets/css/pluginscss/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/pluginscss/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="assets/css/pluginscss/animate.css">
+    <link rel="stylesheet" href="assets/css/pluginscss/lightgallery.css">
     <link rel="stylesheet" href="assets/js/plugins/OwlCarousel2/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/js/plugins/OwlCarousel2/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/js/plugins/skdslider/skdslider.css">
-
-
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- ======Header ======= -->
-<div class="header hidden-m ">
-    <div class="container-fluid text-right">
-                <nav class="nav-header">
-        
-                    <form class="top-form d-inline-block" action="">
-                        <input type="hidden" name="page" value="1">
-                        <div class="input-group-sm">
-                            <input type="text" class="form-control" name="search" value="" placeholder="Tìm kiếm">
-                            <a href="#"><img src="assets/images/icons/common_top_search.png"></a>
-                        </div>
-                    </form>
-        
-                    <div class=" nav-link nav-active d-inline-block">
-                      <ul class="navbar-nav nav-link-menu">
-                        <li class="nav-item active">
-                          <a  href="#">Khách Hàng </a>
-                        </li>
-                        <li class="nav-item">
-                          <a  href="#">Đại Lý </a>
-                        </li>
-                        <li class="nav-item">
-                          <a  href="#">Nhà đầu tư Bot</a>
-                        </li>
-                        <li class="nav-item">
-                          <a  href="#">Cơ quan quản lý nhà nước</a>
-                        </li>
-                      </ul>
-                      <ul class="nav navbar-nav nav-link-account color-purple">
-                        <li class="menu-item-account"><a href="#">Đăng nhập /</a> 
-                            <a href="#" data-toggle="modal"  data-target="#register-model">Đăng ký</a>
-                            <img src="assets/images/icons/common_top_lock.png">
-                        </li>
-                    </ul>
-                    </div>
-        
-                    <div class="nav navbar-nav nav-language d-inline-block">
-                        <a href="#" class="nav-language item color-text">VIE</a>
-                        <span class="sprites">|</span>
-                        <a href="#" class="color-purple">ENG</a>
-        
-                    </div>
-                  </nav>
-       
-    </div>
-</div>
-
-
-<div class="header-nav sticky-top">
+<!--Header-->
+<div class="top-header hidden-m">
     <div class="container">
-       <nav class="navbar navbar-expand-sm navbar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            ☰
-           </button>
-           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/icons/common_top_logo.png">
-           </a>
+        <nav class="navbar-header text-right">
+            <div class="nav-link top-nav-active d-inline-block">
+                <ul class="nav navbar-nav nav-link-menu">
+                    <li class="menu-item"><a href="">Khách hàng</a></li>
+                    <li class="menu-item"><a href="">Đại lý</a></li>
+                    <li class="menu-item"><a href="">Nhà đầu tư BOT</a></li>
+                    <li class="menu-item"><a href="">Cơ quan quản lý nhà nước</a></li>
+                </ul>
 
-           <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item dropdown dmenu">
-                    <a class="nav-link dropdown-toggle" href="ve-chung-toi.html" id="navbardrop" data-toggle="dropdown">
-                        VỀ CHÚNG TÔI
-                    </a>
-                    <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="ve-chung-toi.html#p1">GIỚI THIỆU CHUNG</a>
-                        <a class="dropdown-item" href="ve-chung-toi.html#p2">TẦM NHÌN-SỨ MỆNH</a>
-                        <a class="dropdown-item" href="ve-chung-toi.html#p3">HỘI ĐỒNG QUẢN TRỊ</a>
-                        <a class="dropdown-item" href="ve-chung-toi.html#p4">THÀNH TỰU</a>
-                        <a class="dropdown-item" href="ve-chung-toi.html#p5">VETC THƯƠNG HIỆU</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown dmenu">
-                    <a class="nav-link dropdown-toggle" href="sanpham.html" id="navbardrop" data-toggle="dropdown">
-                        SẢN PHẨM</a>
-                    <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="sanpham.html#sp1">KHÁI QUÁT</a>
-                        <a class="dropdown-item" href="sanpham.html#sp2">LỢI ÍCH</a>
-                        <a class="dropdown-item" href="sanpham.html#sp3">CÔNG NGHỆ</a>
-                        <a class="dropdown-item" href="sanpham.html#sp4">CÁCH DÙNG</a>
-                        <a class="dropdown-item" href="sanpham.html#sp5">ĐIỂM DỊCH VỤ</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown dmenu">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        HƯỚNG DẪN </a>
-                    <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG CÁ NHÂN</a>
-                        <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG DOANH NGHIỆP</a>
-                        <a class="dropdown-item" href="#">HỖ TRỢ DỊCH VỤ</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dientiepnhandichvu.html">ĐIỂM TIẾP NHẬN DỊCH VỤ</a>
-                </li>
-                <li class="nav-item dropdown dmenu">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        TIN TỨC
-                    </a>
-                    <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="tintuc.html">TIN XÃ HỘI</a>
-                        <a class="dropdown-item" href="tintuc02.html">TIN DOANH NGHIỆP</a>
-                        <a class="dropdown-item" href="gallery.html">HÌNH ẢNH</a>
-                        <a class="dropdown-item" href="video.html">VIDEO</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown dmenu">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        TUYỂN DỤNG
-                    </a>
-                    <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="tuyendung.html">TẠI SAO CHỌN VETC</a>
-                        <a class="dropdown-item" href="tuyendung.html">CƠ HỘI NGHỀ NGHIỆP</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LIÊN HỆ</a>
-                </li>
-                
-            </ul>
-        </div>
-     </nav>
-     <a class="commnan-top hidden-m  " href="index.html">
-        <img src="assets/images/icons/common_top_road.png">
-       </a>
+                <ul class="nav navbar-nav nav-link-account">
+                    <li class="menu-item-account"><a href="#">Đăng nhập</a>/<a href="#" data-toggle="modal"
+                                                                               data-target="#register-model">Đăng ký</a>
+                        <img src="assets/images/icons/common_top_lock.png"></li>
+                </ul>
+            </div>
+            <form class="top-form d-inline-block" action="">
+                <input type="hidden" name="page" value="1">
+                <div class="input-group-sm">
+                    <input type="text" class="form-control" name="search" value="" placeholder="Tìm kiếm">
+                    <a href="#"><img src="assets/images/icons/common_top_search.png"></a>
+                </div>
+            </form>
+        </nav>
     </div>
 </div>
- <!-- ====== End Header ======= -->
+<div class="header sticky-nav">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler hidden-lg-up collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                ☰
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/icons/common_top_logo.png">
+            </a>
 
-<!--List Gallery-->
+            <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="ve-chung-toi.html" id="navbardrop" data-toggle="dropdown">
+                            VỀ CHÚNG TÔI
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="ve-chung-toi.html#p1">GIỚI THIỆU CHUNG</a>
+                            <a class="dropdown-item" href="ve-chung-toi.html#p2">TẦM NHÌN-SỨ MỆNH</a>
+                            <a class="dropdown-item" href="ve-chung-toi.html#p3">HỘI ĐỒNG QUẢN TRỊ</a>
+                            <a class="dropdown-item" href="ve-chung-toi.html#p4">THÀNH TỰU</a>
+                            <a class="dropdown-item" href="ve-chung-toi.html#p5">VETC THƯƠNG HIỆU</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="sanpham.html" id="navbardrop" data-toggle="dropdown">
+                            SẢN PHẨM</a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="sanpham.html#sp1">KHÁI QUÁT</a>
+                            <a class="dropdown-item" href="sanpham.html#sp2">LỢI ÍCH</a>
+                            <a class="dropdown-item" href="sanpham.html#sp3">CÔNG NGHỆ</a>
+                            <a class="dropdown-item" href="sanpham.html#sp4">CÁCH DÙNG</a>
+                            <a class="dropdown-item" href="sanpham.html#sp5">ĐIỂM DỊCH VỤ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            HƯỚNG DẪN </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG CÁ NHÂN</a>
+                            <a class="dropdown-item" href="#">HƯỚNG DẪN CHO KHÁCH HÀNG DOANH NGHIỆP</a>
+                            <a class="dropdown-item" href="#">HỖ TRỢ DỊCH VỤ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ĐIỂM TIẾP NHẬN DỊCH VỤ</a>
+                    </li>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            TIN TỨC
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="tintuc.html">TIN XÃ HỘI</a>
+                            <a class="dropdown-item" href="tintuc.html">TIN DOANH NGHIỆP</a>
+                            <a class="dropdown-item" href="gallery.html">HÌNH ẢNH</a>
+                            <a class="dropdown-item" href="video.html">VIDEO</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dmenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            TUYỂN DỤNG
+                        </a>
+                        <div class="dropdown-menu sm-menu">
+                            <a class="dropdown-item" href="#">TẠI SAO CHỌN VETC</a>
+                            <a class="dropdown-item" href="#">CƠ HỘI NGHỀ NGHIỆP</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--End Header-->
+
+<!--Sub Banner-->
+<div class="sub-banner mt-5">
+    <img class="img-fluid" src="assets/images/img/gallery-01.png">
+    <h3 class="title-sub text-uppercase text-right hidden-md wow fadeInDown" data-wow-duration="2s"><strong>Cập nhật tin tức mới nhất<br> về dịch vụ thu phí tự động đường bộ<br> tại Việt Nam</strong></h3>
+
+</div>
+<!--End Sub Banner-->
 
 <!--List Gallery-->
 <div class="list-gallery mt-5">
     <div class="demo-gallery dark mrb35 container">
-        <div id="video-player-param" class="list-unstyled row">
-            <div class="col-md-6 " data-src="https://youtu.be/yZVVlg2x1yA">
+        <ul id="video-player-param" class="list-unstyled row">
+            <li class="col-md-6 " data-src="https://youtu.be/yZVVlg2x1yA">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -162,8 +141,8 @@
                     </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 " data-src="https://youtu.be/32Hpfg1kIMg">
+            </li>
+            <li class="col-md-6 " data-src="https://youtu.be/32Hpfg1kIMg">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -171,8 +150,8 @@
                         <a href="#"><img class="btn-play" src="assets/images/icons/common_icon_play.png"></a>
                     </a></div>
                 </div>
-            </div>
-            <div class="col-md-6" data-src="https://youtu.be/cDTfOIrM4HQ">
+            </li>
+            <li class="col-md-6" data-src="https://youtu.be/cDTfOIrM4HQ">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -180,8 +159,8 @@
                         <a href="#"><img class="btn-play" src="assets/images/icons/common_icon_play.png"></a>
                     </a></div>
                 </div>
-            </div>
-            <div class="col-md-6" data-src="https://youtu.be/PJTKhzMW59M">
+            </li>
+            <li class="col-md-6" data-src="https://youtu.be/PJTKhzMW59M">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -189,8 +168,8 @@
                         <a href="#"><img class="btn-play" src="assets/images/icons/common_icon_play.png"></a>
                     </a></div>
                 </div>
-            </div>
-            <div class="col-md-6" data-src="https://youtu.be/NzXtaAe-GhE">
+            </li>
+            <li class="col-md-6" data-src="https://youtu.be/NzXtaAe-GhE">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -198,8 +177,8 @@
                         <a href="#"><img class="btn-play" src="assets/images/icons/common_icon_play.png"></a>
                     </a></div>
                 </div>
-            </div>
-            <div class="col-md-6" data-src="https://youtu.be/WPCJCscga2Y">
+            </li>
+            <li class="col-md-6" data-src="https://youtu.be/WPCJCscga2Y">
                 <div class="box-gallery">
                     <div class="content-gallery"><a href="">
                         <img class="img-responsive" src="assets/images/img/gl1.jpg">
@@ -207,63 +186,36 @@
                         <a href="#"><img class="btn-play" src="assets/images/icons/common_icon_play.png"></a>
                     </a></div>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 </div>
 
 <!--End List Gallery-->
 
-<!--End List Gallery-->
-
+<!--Intro-->
 <div class="intro">
-    <!-- <div class="row">
-        <div class="intro-warpper col-md-6">
-            <div class="intro-comtent float-right animate__animated animate__fadeInDown animate__delay-2s">
-                <div class="title d-md-inline-block-text-center animate__animated animate__fadeInLeft">
-                    <div class="title d-md-inline-block text-centeranimate__animated animate__fadeInLeft animate__delay-2s"><a
-                        class="intro-text" href="#">LỢI ÍCH</a></div>
-                        <div class="img-intro d-md-inline-block"> 
-                            <img class="img-fluid" src="assets/images/img/pro_home_icon_loiich.png">
-        
-                        </div>
-                   
-                </div>
-            </div>
-        </div>
-        <div class="mouse hidden-m">
-		</div>
-        <div class="col-md-6 intro-two">
-            <div class="intro-content animate__animated animate__fadeInDown animate__delay-2s">
-                <div class="img-intro d-md-inline-block"><img class="img-fluid" src="assets/images/img/pro_home_icon_cachdung.png"></div>
-                <div class="title d-md-inline-block text-center animate__animated animate__fadeInRight animate__delay-2s"><a
-                        class="intro-text" href="#">CÁCH DÙNG</a></div>
-
-                        <div class=" intro-chat  d-md-inline-block hidden-m"> <a href="#"> <img src="./assets/images/icons/common_chat_icon.png" alt=""></a></div>  
-            </div>
-
-        </div>
-    </div> -->
-    <div class="vetc text-center">
+    <div class="ilovevetc text-center">
         <div class="container">
-            <div class="vetc-text d-lg-inline-block">
+            <div class="ilove-text d-lg-inline-block">
                 I
                 <span class="withLove">
           <img src="assets/images/icons/common_fbslogan_icon_heart.png">
       </span>
                 VETC
             </div>
-            <span class="vetc-space hidden-m">|</span>
-            <span class="vetc-slogan">HÃY CÙNG CHÚNG TÔI
+            <span class="ilove-space hidden-m">|</span>
+            <span class="ilove-slogan">HÃY CÙNG CHÚNG TÔI
                     SỐNG HIỆN ĐẠI, LÁI VĂN MINH
             </span>
             <img src="assets/images/icons/common_fbslogan_icon_fb.png">
         </div>
     </div>
-</div> 
+</div>
+<!--End Intro-->
 
-<!-- ===========Concact====== -->
-<div class="concact ">
+<!--Support-->
+<div class="support-home">
     <div class="contact-home pt-4 pb-4">
         <div class="container">
             <div class="row">
@@ -272,55 +224,52 @@
                     <form class="top-form d-inline-block" action="">
                         <input type="hidden" name="page" value="1">
                         <div class="input-group-sm">
-                            <input type="text" class="form-control" name="search" value="" placeholder="Tìm kiếm">
-                            <a href="#"><img src="assets/images/icons/common_top_search.png"></a>
+                            <input type="text" class="form-control" name="input-signup" value=""
+                                   placeholder="Email của bạn">
+                            <a href="#"><img src="assets/images/icons/common_icon_play.png" width="30px" height="30px"></a>
                         </div>
                     </form>
-        
                 </div>
-                <div class="col-md-4 icons text-center mb-3">
+                <div class="col-md-4 text-center mb-3 media-sp">
                     <p>THEO DÕI CHÚNG TÔI</p>
-                    <img src="assets/images/icons/Untitled-2-01.png">
-                    <img src="assets/images/icons/Untitled-2-02.png">
-                    <img src="assets/images/icons/Untitled-2-03.png">
-                    <img src="assets/images/icons/Untitled-2-04.png">
+                    <img src="assets/images/icons/common_icon_social_fb.png">
+                    <img src="assets/images/icons/common_icon_social_googleplus.png">
+                    <img src="assets/images/icons/common_icon_social_linkedin.png">
+                    <img src="assets/images/icons/common_icon_social_youtube.png">
                 </div>
                 <div class="col-md-4 app text-center mb-3">
                     <p>TẢI VÀ CÀI ĐẶT ỨNG DỤNG VETC</p>
-                    <img class="mr-3"src="assets/images/icons/common_icon_app_android.png">
+                    <img class="mr-3" src="assets/images/icons/common_icon_app_android.png">
                     <img src="assets/images/icons/common_icon_app_ios.png">
                 </div>
             </div>
         </div>
-
     </div>
     <div class="container">
-        <div class="cskh mt-5">
-            <div class="custom-title text-center">
+        <div class="support mt-5">
+            <div class="share-title text-center">
                 <span class="color-text">CHIA SẺ VỀ VETC</span>
             </div>
             <div class="row text-center mt-4">
-                <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
-                    <div class="cskh-box">
+                <div class="col-md-4 support-content wow fadeInLeft" data-wow-duration="2s">
+                    <div class="support-box">
+                        <p class="color-text">CÂU HỎI THƯỜNG GẶP</p>
+
+                        <img src="assets/images/icons/common_icon_footer_faq.png">
+                        <p>Câu hỏi thường gặp liên quan tới VETC</p>
+                    </div>
+                </div>
+                <div class="col-md-4 support-content wow fadeInLeft" data-wow-duration="2s">
+                    <div class="support-box">
                         <p class="color-text">TỔNG ĐÀI CHĂM SÓC KHÁCH HÀNG</p>
                         <img src="assets/images/icons/common_icon_footer_phone.png">
                         <h4 class="color-purple font-weight-bold"> 1900 6010</h4>
                         <p class="color-text">Hỗ trợ 24/7</p>
                         <p class="color-text">Sẵn sàng hỗ trợ bạn vào mọi thòi điểm</p>
                     </div>
-                    
                 </div>
-
-                <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-2s">
-                    <div class="cskh-box">
-                        <p class="color-text">CÂU HỎI THƯỜNG GẶP</p>
-                        <img src="assets/images/icons/common_icon_footer_faq.png">
-                        <p>Câu hỏi thường gặp liên quan tới VETC</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 animate__animated animate__fadeInRight animate__delay-2s">
-                    <div class="cskh-box">
+                <div class="col-md-4 support-content wow fadeInLeft" data-wow-duration="2s">
+                    <div class="support-box">
                         <p class="color-text">HỖ TRỢ TRỰC TUYẾN</p>
                         <img src="assets/images/icons/common_icon_footer_chat.png">
                         <p>Mọi thắc mắc của bạn sẽ được nhân viên VETC tư vấn và hỗ trợ</p>
@@ -330,17 +279,20 @@
         </div>
     </div>
 </div>
-<div class="banner-footer mt-5">
+<!--End Support-->
+
+<!--Footer-->
+<div class="partner mt-5">
     <div class="container">
-        <div class="banner-line"></div>
+        <div class="partner-line"></div>
         <div class="row">
             <div class="col-md-4 color-white">
-                <div class="banner-title">
-                    <p class="text-white text-center">HỢP TÁC CÙNG PHÁT TRIỂN</p>
+                <div class="partner-title">
+                    <p class="text-white">HỢP TÁC CÙNG PHÁT TRIỂN</p>
                 </div>
             </div>
             <div class="col-md-8">
-                <div id="owl-partner" class="owl-carousel owl-theme list-inline list-banner-footer">
+                <div id="owl-partner" class="owl-carousel owl-theme list-inline list-partner">
                     <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_1.gif" alt=""/></a>
                     </div>
                     <div class="item"><a href="#"><img src="assets/images/icons/pro_footer_partner_2.gif" alt=""/></a>
@@ -360,29 +312,25 @@
         </div>
     </div>
 </div>
+
 <div class="footer">
     <div class="container">
         <div class="row pt-4">
-            <div class="col-md-4 text-center-md">
+            <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-10">
                         <p class="text-uppercase"><strong>CTY TNHH THU PHÍ TỰ ĐỘNG VETC</strong></p>
+
                         <div class="company-info">
                             <p>ĐỊA CHỈ_ Tầng 1, tòa nhà VPI, 167 Trung Kính, Yên Hòa, Cầu Giấy, Hà Nội.</p>
                             <p>ĐIỆN THOẠI_ (84 - 24) 3 747 6666</p>
                             <p>FAX_ (84 - 24) 3 747 2222</p>
                             <p>WEBSITE_ <a href="index.html" target="_blank">www.vetc.com.vn</a></p>
                         </div>
-                        <div class="mt-3">
-                            <span class="line"></span>
-                            <h6 class="color-purple font-weight-bold"> CHĂM SÓC KHÁCH HÀNG <br>
-                                HOTILINE 1900 6010</h6>
-                             <span class="line"></span>   
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 hidden-md">
+            <div class="col-md-8 hidden-m">
                 <div class="row">
                     <div class="col-sm-3">
                         <p class="text-uppercase"><strong>VỀ CHÚNG TÔI</strong></p>
@@ -431,16 +379,13 @@
         </div>
     </div>
 </div>
-
+<!--End Footer-->
 <!--Include Javascript-->
 
-   
-<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/plugins/mScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="assets/js/plugins/OwlCarousel2/owl.carousel.min.js"></script>
-<script src="assets/js/plugins/skdslider/skdslider.min.js"></script>
-
+<script type="text/javascript" src="assets/js/plugins/jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/plugins/jquery/bootstrap.min.js"></script>
+<script src="assets/js/plugins/mscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/js/plugins/owlcarousel2/owl.carousel.min.js"></script>
 <script src="assets/js/plugins/lightgallery/lightgallery.min.js"></script>
 <script src="assets/js/plugins/lightgallery/lg-thumbnail.min.js"></script>
 <script src="assets/js/plugins/lightgallery/lg-fullscreen.min.js"></script>
@@ -450,3 +395,4 @@
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
+
